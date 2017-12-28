@@ -3,10 +3,15 @@ This is designed to run on any co-processor properly configured with OpenCV and 
 The co-processor must also have a configured usb camera.
 To run this code, you must do 
 
-$ python runner.py
+$ python3 runner.py
 
 in the terminal.
 This will run the grip-generated code and show some videos.
+## Requirements
+As of 12/27/2017, the requirements are as follows:
+* opencv version 3+
+* python3 or
+  * python2 with a certain package installed regarding arrays
 ## Goals and Purpose
 This repo will eventually be suitable to run at competitions
 once this system is better known. It will include network table 

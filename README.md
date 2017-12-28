@@ -3,7 +3,7 @@ This is designed to run on any co-processor properly configured with OpenCV and 
 The co-processor must also have a configured usb camera.
 To run this code, you must do 
 
-$ python3 runner.py
+`$ python3 runner.py`
 
 in the terminal.
 This will run the grip-generated code and show some videos.

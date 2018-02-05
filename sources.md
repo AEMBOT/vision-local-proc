@@ -12,3 +12,5 @@
 4. (Linux-esque Only) [Changing Camera Settings](http://www.techytalk.info/webcam-settings-control-ubuntu-linux/comment-page-1/) - Useful for when Grip settings aren't quite enough.  By physically changing exposure and saturation, Grip is able to more efficiently do stuff.
 
 5. [All things opencv/rpi](https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/) - Guide for building opencv**3** on a raspberry pi, good luck. Python 3 preferably.
+
+6. [Robotpy cscore streaming](https://github.com/robotpy/robotpy-cscore) - A streaming utility utilizing robotpy's library.

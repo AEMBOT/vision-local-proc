@@ -1,3 +1,4 @@
+# TODO: Look into [this](https://github.com/WPIRoboticsProjects/opencv-installer) amazing piece of software and don't forget.
 # vision-local-proc
 This is designed to run on any co-processor properly configured with OpenCV and Python.
 The co-processor must also have a configured usb camera.

@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-from pipeline.powerCube import GripPipeline
+from pipeline.powerCubeV2 import GripPipeline
 
 # camera settings
 # -1 finds the first camera, so ensure only 1 camera is in

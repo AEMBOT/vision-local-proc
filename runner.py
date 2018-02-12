@@ -1,8 +1,6 @@
 import numpy as np
 import cv2
-from greenCross import GripGreenCross
-from reflectiveTape import ReflectivePipeline
-from powerCube import GripPipeline
+from pipeline.powerCube import GripPipeline
 
 # camera settings
 # -1 finds the first camera, so ensure only 1 camera is in

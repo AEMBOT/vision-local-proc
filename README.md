@@ -11,7 +11,7 @@ This will run the grip-generated code and show some videos.
 ## Requirements
 As of 12/27/2017, the requirements are as follows:
 * opencv version 3+
-* python3 or
+* python3(.5) or
   * python2 with a certain package installed regarding arrays
 ## Goals and Purpose
 This repo will eventually be suitable to run at competitions

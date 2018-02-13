@@ -1,5 +1,6 @@
 import numpy as np
 import cv2
+from networktables import NetworkTables
 from pipeline.powerCubeV2 import GripPipeline
 
 # camera settings
@@ -12,6 +13,11 @@ cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480);
 # pipeline processor object
 pipeline = GripPipeline()
 
+# network table initialization
+ip = 6443
+NetworkTables.initialize(ip)
+dashTable = NetworkTables.getTable('SmartDashboard')
+dashTable.put('vision_test', 6443) # fixxxxxxxx
 
 while (True):
     # Pass in frame from camera (cap)
@@ -39,6 +45,8 @@ while (True):
     cv2.imshow('mask', mask)
     cv2.imshow('frame', ret)
     cv2.imshow('frame', ret)
+
+
 
 
     # check if q is hit to quit

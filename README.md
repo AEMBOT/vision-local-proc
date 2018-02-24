@@ -1,4 +1,3 @@
-# TODO: Look into [this](https://github.com/WPIRoboticsProjects/opencv-installer) amazing piece of software and don't forget.
 # vision-local-proc
 This is designed to run on any co-processor properly configured with OpenCV and Python.
 The co-processor must also have a configured usb camera.
@@ -10,7 +9,7 @@ in the terminal.
 This will run the grip-generated code and show some videos.
 ## Requirements
 As of 12/27/2017, the requirements are as follows:
-* opencv version 3+
+* opencv version 3+ (Tested w/ 3.4)
 * python3(.5) or
   * python2 with a certain package installed regarding arrays
 ## Goals and Purpose
